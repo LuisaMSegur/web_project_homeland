@@ -3,12 +3,12 @@
     font-style: normal; 
     font-weight: 900; 
     font-display: swap; 
-    src: url("./Fonts/web/Inter-Black.woff2") format("woff2"); 
+    src: url("./fonts/web/Inter-Black.woff2") format("woff2"); 
 }
 @font-face { 
     font-family: "Inter-Regular"; 
     font-style: normal; 
     font-weight: 400; 
     font-display: swap; 
-    src: url("./Fonts/web/Inter-Regular.woff2") format("woff2"); 
+    src: url("./fonts/web/Inter-Regular.woff2") format("woff2"); 
 }
