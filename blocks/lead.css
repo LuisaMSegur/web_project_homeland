@@ -29,6 +29,7 @@ margin: 0 auto;
 .lead__image {
 padding-bottom: 92px;
 max-width: 100%;
+object-fit: contain;
 }
 
 @media screen and (max-width:768px) {
