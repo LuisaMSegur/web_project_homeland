@@ -1,4 +1,4 @@
-.intro {
+.main {
     display: flex;
   flex-wrap: wrap;
     margin: 0 auto;
@@ -7,7 +7,7 @@
     gap: 20px;
 
 }
-.intro__title {
+.main__title {
     color: #ffffff;
     font-family: "Inter";
     font-size: 54px;
@@ -16,7 +16,7 @@
     padding-bottom: 20px;
 }
 
-.intro__text-cita {
+.main__text-cita {
     color: #ffffff;
     max-width: 738px;
     font-family: "Inter-Regular";
@@ -26,13 +26,13 @@
     line-height: 1.5;
 }
 
-.intro__text-cita_author {
+.main__text-cita_author {
     color: #ffffff;
     text-align: end;
     width: 732px;
 }
 
-.intro__text {
+.main__text {
     color: #ffffff;
     font-family: "Inter-Regular";
     font-size: 16px;
@@ -46,16 +46,16 @@
 
 
 @media screen and (max-width:768px) {
-    .intro {
+    .main {
         width: 95%;
         padding-right: 0;
     }
-    .intro__title {
+    .main__title {
       font-size: 45px;
     }
     }
 @media screen and (max-width:320px) {
-      .intro__title {
+      .main__title {
         font-size: 32px;
       }
     }
