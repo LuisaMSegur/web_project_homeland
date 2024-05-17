@@ -5,3 +5,9 @@
     display: flex;
     flex-direction: column;
 }
+
+@media screen and (min-width:1024px) {
+    .page {
+        background-color: #2a2c2f;
+    }
+}
