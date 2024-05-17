@@ -1,68 +1,83 @@
 .content {
-    display: flex;
+  display: flex;
   flex-wrap: wrap;
-    margin: 0 auto;
-    width: 65%;
-    padding-right: 150px;
+  margin: 0 auto;
+  max-width: 830px;
+  padding-right: 150px;
 
 }
 
 .content__intro {
   display: flex;
   flex-wrap: wrap;
-    margin: 0 auto;
-    gap: 30px;
+  margin: 0 auto;
+  gap: 30px;
 }
 
 .content__title {
-    color: #ffffff;
-    font-family: "Inter";
-    font-size: 54px;
-    text-align: start;
-    margin: 0;
-    padding-bottom: 20px;
+  color: #ffffff;
+  font-family: "Inter";
+  font-size: 54px;
+  text-align: start;
+  margin: 0;
+  padding-bottom: 20px;
 }
 
 .content__text-cita {
-    color: #ffffff;
-    max-width: 738px;
-    font-family: "Inter-Regular";
-    font-size: 24px;
-    font-weight: 100;
-    margin: 0;
-    line-height: 1.5;
+  color: #ffffff;
+  max-width: 738px;
+  font-family: "Inter-Regular";
+  font-size: 24px;
+  font-weight: 100;
+  margin: 0;
+  line-height: 1.5;
 }
 
 .content__text-cita_author {
-    color: #ffffff;
-    text-align: end;
-    width: 732px;
+  color: #ffffff;
+  text-align: end;
+  width: 732px;
 }
 
 .content__text {
-    color: #ffffff;
-    font-family: "Inter-Regular";
-    font-size: 16px;
-    font-weight: 30;
-    margin: 0;
-    max-width: 722px;
-    line-height: 1.7;
+  color: #ffffff;
+  font-family: "Inter-Regular";
+  font-size: 16px;
+  font-weight: 30;
+  margin: 0;
+  max-width: 722px;
+  line-height: 1.7;
 
 }
 
 
+@media screen and (min-width: 320px) and (max-width: 544px) {
+  .content {
+    padding-right: 0;
+    max-width: 288px;
+  }
 
-@media screen and (max-width:768px) {
-    .content {
-        width: 95%;
-        padding-right: 0;
-    }
-    .content__title {
-      font-size: 45px;
-    }
-    }
-@media screen and (max-width:320px) {
-      .content__title {
-        font-size: 32px;
-      }
-    }
+  .content__intro {
+    max-width: 288px;
+  }
+
+  .content__title {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 545px) and (max-width: 1024px) {
+  .content {
+    max-width: 720px;
+    padding-right: 0;
+  }
+
+  .content__intro {
+    max-width: 720px;
+  }
+
+  .content__title {
+    font-size: 45px;
+    max-width: 707px;
+  }
+}
