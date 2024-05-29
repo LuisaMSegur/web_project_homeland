@@ -3,8 +3,8 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: "gallery__item_ciudad1 gallery__item_ciudad2 gallery__item_ciudad3 gallery__item_ciudad4"
-        "gallery__item_ciudad5 gallery__item_ciudad6 gallery__item_ciudad7 gallery__item_ciudad8";
+    grid-template-areas: "ciudad1 ciudad2 ciudad3 ciudad4"
+        "ciudad5 ciudad6 ciudad7 ciudad8";
     grid-gap: 15px;
     margin: 48px;
 }
@@ -12,50 +12,50 @@
 .photo-grid__item_ciudad1 {
     max-width: 284px;
     max-height: 213px;
-    grid-area: "gallery__item_ciudad1";
+    grid-area: ciudad1;
 
 }
 
 .photo-grid__item_ciudad2 {
     width: 284px;
     height: 213px;
-    grid-area: "gallery__item_ciudad2";
+    grid-area: ciudad2;
 }
 
 .photo-grid__item_ciudad3 {
     width: 284px;
     height: 213px;
-    grid-area: "gallery__item_ciudad3";
+    grid-area: ciudad3;
 }
 
 .photo-grid__item_ciudad4 {
     width: 284px;
     height: 213px;
-    grid-area: "gallery__item_ciudad4";
+    grid-area: ciudad4;
 }
 
 .photo-grid__item_ciudad5 {
     width: 284px;
     height: 213px;
-    grid-area: "gallery__item_ciudad5";
+    grid-area: ciudad5;
 }
 
 .photo-grid__item_ciudad6 {
     width: 284px;
     height: 213px;
-    grid-area: "gallery__item_ciudad6";
+    grid-area: ciudad6;
 }
 
 .photo-grid__item_ciudad7 {
     width: 284px;
     height: 213px;
-    grid-area: "gallery__item_ciudad7";
+    grid-area: ciudad7;
 }
 
 .photo-grid__item_ciudad8 {
     width: 284px;
     height: 213px;
-    grid-area: "gallery__item_ciudad8";
+    grid-area: ciudad8;
 }
 
 @media screen and (min-width: 320px) and (max-width: 544px) {
