@@ -31,7 +31,6 @@
     margin-bottom: 92px;
     max-width: 100%;
     object-fit: fill;
-    box-shadow: 10px 10px 7px #00000069;
 }
 
 
@@ -46,9 +45,6 @@
         max-width: 288px;
     }
 
-    .header__image {
-        box-shadow: 0 10px 7px #00000069;
-    }
 }
 
 
@@ -62,7 +58,4 @@
         font-size: 30px;
     }
 
-    .header__image {
-        box-shadow: 0 10px 7px #00000069;
-    }
 }
