@@ -9,50 +9,50 @@
     margin: 48px;
 }
 
-.photo-grid__item_ciudad1 {
+.photo-grid__item1 {
     max-width: 284px;
     max-height: 213px;
     grid-area: ciudad1;
 
 }
 
-.photo-grid__item_ciudad2 {
+.photo-grid__item2 {
     width: 284px;
     height: 213px;
     grid-area: ciudad2;
 }
 
-.photo-grid__item_ciudad3 {
+.photo-grid__item3 {
     width: 284px;
     height: 213px;
     grid-area: ciudad3;
 }
 
-.photo-grid__item_ciudad4 {
+.photo-grid__item4 {
     width: 284px;
     height: 213px;
     grid-area: ciudad4;
 }
 
-.photo-grid__item_ciudad5 {
+.photo-grid__item5 {
     width: 284px;
     height: 213px;
     grid-area: ciudad5;
 }
 
-.photo-grid__item_ciudad6 {
+.photo-grid__item6 {
     width: 284px;
     height: 213px;
     grid-area: ciudad6;
 }
 
-.photo-grid__item_ciudad7 {
+.photo-grid__item7 {
     width: 284px;
     height: 213px;
     grid-area: ciudad7;
 }
 
-.photo-grid__item_ciudad8 {
+.photo-grid__item8 {
     width: 284px;
     height: 213px;
     grid-area: ciudad8;
