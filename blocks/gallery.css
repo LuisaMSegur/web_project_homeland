@@ -1,0 +1,85 @@
+.gallery {
+    max-width: 1280px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "gallery__item_ciudad1 gallery__item_ciudad2 gallery__item_ciudad3 gallery__item_ciudad4"
+        "gallery__item_ciudad5 gallery__item_ciudad6 gallery__item_ciudad7 gallery__item_ciudad8";
+    grid-gap: 15px;
+    margin: 48px;
+}
+
+.gallery__item_ciudad1 {
+    max-width: 284px;
+    max-height: 213px;
+    grid-area: "gallery__item_ciudad1";
+
+}
+
+.gallery__item_ciudad2 {
+    width: 284px;
+    height: 213px;
+    grid-area: "gallery__item_ciudad2";
+}
+
+.gallery__item_ciudad3 {
+    width: 284px;
+    height: 213px;
+    grid-area: "gallery__item_ciudad3";
+}
+
+.gallery__item_ciudad4 {
+    width: 284px;
+    height: 213px;
+    grid-area: "gallery__item_ciudad4";
+}
+
+.gallery__item_ciudad5 {
+    width: 284px;
+    height: 213px;
+    grid-area: "gallery__item_ciudad5";
+}
+
+.gallery__item_ciudad6 {
+    width: 284px;
+    height: 213px;
+    grid-area: "gallery__item_ciudad6";
+}
+
+.gallery__item_ciudad7 {
+    width: 284px;
+    height: 213px;
+    grid-area: "gallery__item_ciudad7";
+}
+
+.gallery__item_ciudad8 {
+    width: 284px;
+    height: 213px;
+    grid-area: "gallery__item_ciudad8";
+}
+
+@media screen and (min-width: 320px) and (max-width: 544px) {
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 38px 0;
+        gap: 10px;
+    }
+}
+
+@media screen and (min-width: 545px) and (max-width: 900px) {
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
