@@ -10,7 +10,6 @@
 .header__title {
     font-size: 96px;
     color: #ffffff;
-    font-family: "Inter";
     margin: 0 auto;
     max-width: 720px;
     text-align: center;
@@ -20,8 +19,7 @@
 .header__subtitle {
     font-size: 30px;
     color: #ffffff;
-    font-family: "Inter-Regular";
-    font-weight: 100;
+    font-weight: 50;
     margin: 0 auto;
     max-width: 720px;
     text-align: center;
