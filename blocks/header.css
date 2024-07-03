@@ -46,7 +46,11 @@
 }
 
 
-@media screen and (min-width: 545px) and (max-width: 1024px) {
+@media screen and (min-width: 545px) and (max-width: 700px) {
+    .header {
+        max-width: 700px;
+    }
+
     .header__title {
         font-size: 75px;
         max-width: 530px;
@@ -54,6 +58,7 @@
 
     .header__subtitle {
         font-size: 30px;
+        max-width: 530px;
     }
 
 }
